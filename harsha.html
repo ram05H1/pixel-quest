@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Quest - Game Portal</title>
+  <style>
+    body {
+      font-family: 'Press Start 2P', cursive, Arial, sans-serif;
+      margin: 0;
+      background-color: #111;
+      color: #eee;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      padding: 30px;
+      text-align: center;
+      border-bottom: 4px solid #00ff99;
+    }
+
+
+    header h1 {
+      font-size: 28px;
+      color: #00ff99;
+      margin: 0;
+    }
+
+    header p {
+      color: #ccc;
+    }
+
+    section {
+      padding: 20px;
+      border-bottom: 1px solid #333;
+    }
+
+    h2 {
+      color: #00ccff;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: 10px auto;
+      border: 2px solid #00ccff;
+    }
+
+    a {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 15px 30px;
+      font-size: 14px;
+      font-family: 'Press Start 2P', cursive;
+      background-color: #ff0066;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #cc0052;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 Pixel Quest</h1>
+    <p>Your Adventure Begins Now!</p>
+  </header>
+         <nav style="text-align: center; background-color: #111; padding: 15px; border-bottom: 2px solid #00ff99;">
+  <a href="#about" style="margin: 0 15px;">About</a>
+  <a href="#rules" style="margin: 0 15px;">Rules</a>
+  <a href="#play" style="margin: 0 15px;">Play</a>
+ </nav>
+  <section id="about">
+    <h2>About the Game</h2>
+    <p>Pixel Quest is a retro-style browser game where you explore pixel worlds, fight monsters, and collect treasures. It’s fun, fast-paced, and completely free!</p>
+    <img src="https://www.mmztech.com/pixelquest/banner500.jpg">
+  </section>
+
+  <section id="rules">
+    <h2>Game Rules</h2>
+
+    <p>
+      🕹 Use arrow keys to move<br>
+      ⚔ Press spacebar to attack<br>
+      💎 Collect coins and power-ups<br>
+      👾 Avoid or defeat enemies to survive!
+    </p>
+  </section>
+
+  <section id="play">
+    <h2>Ready to Play?</h2>
+    <button onclick="startGame()">Start Game</button>
+  </section>
+
+  <script>
+    function startGame() {
+      alert("🚀 Get ready! The game is starting...");
+    }
+  </script>
+</body>
+</html>
